@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <style>
+    body{
+      margin: 0;
+      padding:0;
+      height: 100vh;
+    }
+    #particles-js{
+      height: 100%;
+      background: #0B5EE7;
+    }
+    img{
+      box-shadow: 20 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .chatElement{
+      height: 80%;
+      width: 40%;
+      position: fixed;
+      bottom: 0;
+      right:0;
+      margin-right: 10%;
+      margin-bottom: 5%;
+    }
+    
+    .robot{
+      position: fixed;
+      bottom: 0;
+      padding-left: 40px;
+    }
+    .flex {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    position: fixed;
+    top: 210px;
+    left: 240px;
+    width: 370px;
+    height: 300px;
+    }
+
+    @media only screen and (max-width:1250px){
+      .chatElement {
+        width: 70vw;
+        height: 70vh;
+    }
+      .robot{
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<div id="particles-js">
+<div class="chatElement"></div>
+<img class="robot" src="imgs/robotwithchat4.png" alt="robot icon" width="600" height="500">
+<div class="flex">
+    <p id="profileoption"></p>
+</div>
+<script type="text/javascript">
+  const texts = "Hi, I'm Marvin! You can ask me questions about Object-Oriented Programming. If I don't understand you, try rephrasing the question!";
+  var count = 0;
+  var timer;
+
+  function typeWriter() {
+      let text = texts.split("");
+      var addingtext = function() {
+          if (text.length > 0) {
+              document.getElementById('profileoption').innerHTML += text.shift();
+              count++;
+
+          } 
+
+          timer = setTimeout(addingtext, 50);
+      };
+      count++;
+      addingtext();
+  };
+
+
+  typeWriter();
+</script>
+<script>
+  const element = document.querySelector('.chatElement');
+  window.watsonAssistantChatOptions = {
+    integrationID: "0fb912a1-3979-4fa2-b41b-8e64c0dacef7",
+    region: "us-south",
+    serviceInstanceID: "4c63721c-4785-4c66-912d-b95e4c7e0ede",
+
+      // Provide the custom element.
+      element: element,
+      // Hide the close button since we want it always open.
+      hideCloseButton: true,
+      // Hide the default launcher.
+      showLauncher: false,
+      // Make the window open by default.
+      openChatByDefault: true,
+      // Config option to change Carbon themes.
+      carbonTheme: 'g90',
+
+      onLoad: function(instance) {
+        instance.render();
+        // instance.motion(entrance,expressive);
+      }
+      };
+
+  setTimeout(function(){const t=document.createElement('script');t.src='https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js';document.head.appendChild(t);});
+</script>
+
+</div>
+<script src="scripts/particles.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
