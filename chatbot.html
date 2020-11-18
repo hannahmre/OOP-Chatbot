@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body{
@@ -29,19 +30,25 @@
       position: fixed;
       bottom: 0;
       padding-left: 40px;
+      width: 45vw; 
+      height: 65vh;
     }
     .flex {
     display: flex;
     justify-content: center;
-    font-size: 24px;
+    /*align-items: center;*/
+    /*font-size: 200%;*/
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: black;
     position: fixed;
-    top: 210px;
-    left: 240px;
-    width: 370px;
-    height: 300px;
+    top: 39vh;
+    left: 19vw;
+    width: 25vw;
+    height: 30vh;
+    }
+    .flex p{
+      font-size: 1.8vw;
     }
 
     @media only screen and (max-width:1250px){
@@ -52,13 +59,39 @@
       .robot{
         display: none;
       }
+      .flex{
+        display: none;
+      }
     }
+    @media only screen and (max-height:500px){
+      .chatElement {
+        width: 70vw;
+        height: 70vh;
+    }
+      .robot{
+        display: none;
+      }
+      .flex{
+        display: none;
+      }
+    }
+/*    @media only screen and (max-height:900px){
+      .flex{
+        font-size: 180%;
+        position: fixed;
+        top: 40vh;
+        left: 19vw;
+        width: 25vw;
+        height: 35vh;
+      }
+    }*/
+    
   </style>
 </head>
 <body>
 <div id="particles-js">
 <div class="chatElement"></div>
-<img class="robot" src="imgs/robotwithchat4.png" alt="robot icon" width="600" height="500">
+<img class="robot" src="imgs/robotwithchat4.png" alt="robot icon" >
 <div class="flex">
     <p id="profileoption"></p>
 </div>
