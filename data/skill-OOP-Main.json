@@ -1,0 +1,4869 @@
+{
+  "intents": [
+    {
+      "intent": "concepts",
+      "examples": [
+        {
+          "text": "can you tell me the basic concepts of object oriented programming"
+        },
+        {
+          "text": "can you tell me the basic concepts of OOP"
+        },
+        {
+          "text": "can you tell me the concepts of object oriented programming"
+        },
+        {
+          "text": "can you tell me the concepts of OOP"
+        },
+        {
+          "text": "can you tell me the main concepts of object oriented programming"
+        },
+        {
+          "text": "can you tell me the main concepts of OOP"
+        },
+        {
+          "text": "concepts in object oriented programming"
+        },
+        {
+          "text": "concepts in OOP"
+        },
+        {
+          "text": "concepts of OOP"
+        },
+        {
+          "text": "main concepts in object oriented programming"
+        },
+        {
+          "text": "main concepts in OOP"
+        },
+        {
+          "text": "main concepts of object oriented programming"
+        },
+        {
+          "text": "main concepts of OOP"
+        },
+        {
+          "text": "object oriented concepts"
+        },
+        {
+          "text": "object oriented programming concepts"
+        },
+        {
+          "text": "OOP concepts"
+        },
+        {
+          "text": "reuse mechanism"
+        },
+        {
+          "text": "tell me the 4 concepts of OOP"
+        },
+        {
+          "text": "tell me the basic concepts of OOP"
+        },
+        {
+          "text": "tell me the concepts of OOP"
+        },
+        {
+          "text": "tell me the main concepts of OOP"
+        },
+        {
+          "text": "tell me what the concepts of OOP"
+        },
+        {
+          "text": "tell me what the concepts of OOP are"
+        },
+        {
+          "text": "what are the basic concepts in object oriented programming"
+        },
+        {
+          "text": "what are the basic concepts in OOP"
+        },
+        {
+          "text": "what are the basic concepts of object oriented programming"
+        },
+        {
+          "text": "what are the basic concepts of OOP"
+        },
+        {
+          "text": "what are the basic object oriented concepts"
+        },
+        {
+          "text": "what are the four basic concepts in OOP"
+        },
+        {
+          "text": "what are the four basic concepts of OOP"
+        },
+        {
+          "text": "what are the four concepts of OOP"
+        },
+        {
+          "text": "what are the four main concepts in OOP"
+        },
+        {
+          "text": "what are the four main concepts of OOP"
+        },
+        {
+          "text": "what are the main concepts in object oriented programming"
+        },
+        {
+          "text": "what are the main concepts in OOP"
+        },
+        {
+          "text": "what are the main concepts of object oriented programming"
+        },
+        {
+          "text": "what are the main concepts of OOP"
+        },
+        {
+          "text": "what are the object oriented programming concepts"
+        },
+        {
+          "text": "what are the OOP concepts"
+        },
+        {
+          "text": "which concept is used as a reuse mechanism"
+        },
+        {
+          "text": "Which object oriented concept can be used as a reuse mechanism"
+        },
+        {
+          "text": "which object oriented concept exposes only the necessary information to the calling functions"
+        },
+        {
+          "text": "which object oriented concept exposes only the necessary information to the client"
+        },
+        {
+          "text": "which object oriented concept is used as a reuse mechanism"
+        },
+        {
+          "text": "which object oriented concept makes only the necessary information to the calling functions visible"
+        },
+        {
+          "text": "which object oriented concept mechanism has the ability to reuse"
+        },
+        {
+          "text": "which object oriented concept only shows the necessary information to the calling functions"
+        },
+        {
+          "text": "Which object oriented concept supports reuse mechanisms"
+        },
+        {
+          "text": "Which object oriented concept uses a reuse mechanism"
+        },
+        {
+          "text": "which object oriented concept uses reuse mechanisms"
+        },
+        {
+          "text": "Which object oriented programming concept can be used as a reuse mechanism"
+        },
+        {
+          "text": "which object oriented programming concept exposes only the necessary information to the calling functions"
+        },
+        {
+          "text": "which object oriented programming concept exposes only the necessary information to the client"
+        },
+        {
+          "text": "which object oriented programming concept is used as a reuse mechanism"
+        },
+        {
+          "text": "which object oriented programming concept makes only the necessary information to the calling functions visible"
+        },
+        {
+          "text": "which object oriented programming concept mechanism has the ability to reuse"
+        },
+        {
+          "text": "which object oriented programming concept only shows the necessary information to the calling functions"
+        },
+        {
+          "text": "Which object oriented programming concept supports reuse mechanisms"
+        },
+        {
+          "text": "Which object oriented programming concept uses a reuse mechanism"
+        },
+        {
+          "text": "which object oriented programming concept uses reuse mechanisms"
+        },
+        {
+          "text": "which OOP concept allows reuse mechanisms"
+        },
+        {
+          "text": "Which OOP concept can be used as a reuse mechanism"
+        },
+        {
+          "text": "which OOP concept exposes only the necessary information to the calling functions"
+        },
+        {
+          "text": "which OOP concept exposes only the necessary information to the client"
+        },
+        {
+          "text": "which OOP concept exposes only the needed information to the calling functions"
+        },
+        {
+          "text": "Which OOP concept is used as a reuse mechanism"
+        },
+        {
+          "text": "which OOP concept makes only the necessary information to the calling functions visible"
+        },
+        {
+          "text": "which OOP concept mechanism has the ability to reuse"
+        },
+        {
+          "text": "which OOP concept only shows the necessary information to the calling functions"
+        },
+        {
+          "text": "Which OOP concept supports reuse mechanisms"
+        },
+        {
+          "text": "Which OOP concept uses a reuse mechanism"
+        },
+        {
+          "text": "which OOP concept uses reuse mechanisms"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "definition_based",
+      "examples": [
+        {
+          "text": "can you define abstraction"
+        },
+        {
+          "text": "can you define a class"
+        },
+        {
+          "text": "can you define an object"
+        },
+        {
+          "text": "can you tell me the definition of abstraction"
+        },
+        {
+          "text": "can you tell me the definition of a class"
+        },
+        {
+          "text": "can you tell me what abstraction is"
+        },
+        {
+          "text": "can you tell me what a class is"
+        },
+        {
+          "text": "can you tell me what a class means"
+        },
+        {
+          "text": "can you tell me what an object is"
+        },
+        {
+          "text": "can you tell me what classes are"
+        },
+        {
+          "text": "can you tell me what inheritance means"
+        },
+        {
+          "text": "can you tell me what the definition of abstraction is"
+        },
+        {
+          "text": "can you tell me what the definition of a class is"
+        },
+        {
+          "text": "Define Abstraction"
+        },
+        {
+          "text": "define a class"
+        },
+        {
+          "text": "define an object"
+        },
+        {
+          "text": "explain the concept of abstraction"
+        },
+        {
+          "text": "explain what abstraction is"
+        },
+        {
+          "text": "explain what abstraction means"
+        },
+        {
+          "text": "explain what a class is"
+        },
+        {
+          "text": "explain what an object is"
+        },
+        {
+          "text": "how do you define abstraction"
+        },
+        {
+          "text": "how do you define a class"
+        },
+        {
+          "text": "how do you define an object"
+        },
+        {
+          "text": "tell me what a class is"
+        },
+        {
+          "text": "tell me what a class means"
+        },
+        {
+          "text": "tell me what class is"
+        },
+        {
+          "text": "tell me what class means"
+        },
+        {
+          "text": "what are objects"
+        },
+        {
+          "text": "What does abstraction mean"
+        },
+        {
+          "text": "what does a class mean"
+        },
+        {
+          "text": "what does an object mean"
+        },
+        {
+          "text": "what does inheritance mean"
+        },
+        {
+          "text": "What is Abstraction"
+        },
+        {
+          "text": "what is a class"
+        },
+        {
+          "text": "what is an object"
+        },
+        {
+          "text": "what is override"
+        },
+        {
+          "text": "What is the definition of abstraction"
+        },
+        {
+          "text": "what is the definition of a class"
+        },
+        {
+          "text": "what is the definition of an object"
+        },
+        {
+          "text": "what is the meaning of abstraction"
+        },
+        {
+          "text": "what is the meaning of a class"
+        },
+        {
+          "text": "what is the meaning of an object"
+        },
+        {
+          "text": "whats abstraction"
+        },
+        {
+          "text": "whats a class"
+        },
+        {
+          "text": "whats the definition of a class"
+        },
+        {
+          "text": "whats the meaning of abstraction"
+        },
+        {
+          "text": "whats the meaning of a class"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "error_messages",
+      "examples": [
+        {
+          "text": "Cannot find symbol"
+        },
+        {
+          "text": "can you tell me what the error cannot find symbol is"
+        },
+        {
+          "text": "can you tell me what the error cannot find symbol means"
+        },
+        {
+          "text": "can you tell me what the error message cannot find symbol is"
+        },
+        {
+          "text": "can you tell me what the error message cannot find symbol means"
+        },
+        {
+          "text": "error message \"cannot find symbol\""
+        },
+        {
+          "text": "error message cannot find symbol"
+        },
+        {
+          "text": "i am getting the error cannot find symbol"
+        },
+        {
+          "text": "i am getting the error message cannot find symbol"
+        },
+        {
+          "text": "Illegal Start of an Expression"
+        },
+        {
+          "text": "incompatible types"
+        },
+        {
+          "text": "Missing Return Value"
+        },
+        {
+          "text": "NullPointerException"
+        },
+        {
+          "text": "Operator Cannot be Applied to"
+        },
+        {
+          "text": "OutOfMemoryError"
+        },
+        {
+          "text": "public class should be in file"
+        },
+        {
+          "text": "reached end of file while parsing"
+        },
+        {
+          "text": "StackOverflowError"
+        },
+        {
+          "text": "what does the error cannot find symbol mean"
+        },
+        {
+          "text": "what does the error message cannot find symbol"
+        },
+        {
+          "text": "what does the error message \"cannot find symbol\" mean"
+        },
+        {
+          "text": "what does the error message cannot find symbol mean"
+        },
+        {
+          "text": "what is cannot find symbol error message"
+        },
+        {
+          "text": "what is the cannot find symbol error"
+        },
+        {
+          "text": "what is the cannot find symbol error message"
+        },
+        {
+          "text": "what is the error \"cannot find symbol\""
+        },
+        {
+          "text": "what is the error cannot find symbol"
+        },
+        {
+          "text": "what is the error message \"cannot find symbol\""
+        },
+        {
+          "text": "what is the error message cannot find symbol"
+        },
+        {
+          "text": "whats the error message \"cannot find symbol\""
+        }
+      ],
+      "description": "attempting to solve common java error messages associated with object oriented programming"
+    },
+    {
+      "intent": "how_to_use",
+      "examples": [
+        {
+          "text": "Do we require a parameter for constructors?"
+        },
+        {
+          "text": "How can we call the base method without creating an instance?"
+        },
+        {
+          "text": "How many instances can be created for an abstract class?"
+        },
+        {
+          "text": "What is the default access modifier in a class?"
+        },
+        {
+          "text": "What is the default access specifier in a class definition?"
+        },
+        {
+          "text": "what is the use of finialize method"
+        },
+        {
+          "text": "What is the use of the finalize method?"
+        },
+        {
+          "text": "Whether static method can use nonstatic members?"
+        },
+        {
+          "text": "Which keyword can be used for overloading?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "java_syntax",
+      "examples": [
+        {
+          "text": "array syntax"
+        },
+        {
+          "text": "can you tell me how to create an array"
+        },
+        {
+          "text": "can you tell me how to initialize an array"
+        },
+        {
+          "text": "can you tell me how to setup an array"
+        },
+        {
+          "text": "can you tell me how to write an array"
+        },
+        {
+          "text": "can you tell me the syntax for creating an array"
+        },
+        {
+          "text": "can you tell me the syntax for initializing an array"
+        },
+        {
+          "text": "can you tell me the syntax for setting up an array"
+        },
+        {
+          "text": "can you tell me the syntax for writing an array"
+        },
+        {
+          "text": "comment syntax in Java"
+        },
+        {
+          "text": "How do I create a comment in Java?"
+        },
+        {
+          "text": "How do I create an if-else statement?"
+        },
+        {
+          "text": "how do you create an array"
+        },
+        {
+          "text": "How do you initalize an array"
+        },
+        {
+          "text": "How do you initalize a variable in Java?"
+        },
+        {
+          "text": "how do you set up an array"
+        },
+        {
+          "text": "how do you write an array"
+        },
+        {
+          "text": "How to make a for-loop?"
+        },
+        {
+          "text": "How to make a function in Java?"
+        },
+        {
+          "text": "How to use a function?"
+        },
+        {
+          "text": "How to use a while-loop?"
+        },
+        {
+          "text": "syntax for an array"
+        },
+        {
+          "text": "Syntax for a while-loop"
+        },
+        {
+          "text": "syntax for creating an array"
+        },
+        {
+          "text": "Syntax for initializing an array"
+        },
+        {
+          "text": "syntax for setting up an array"
+        },
+        {
+          "text": "Syntax for writing a comment in Java"
+        },
+        {
+          "text": "syntax for writing an array"
+        },
+        {
+          "text": "syntax of an array"
+        },
+        {
+          "text": "Tell me how to create a function"
+        },
+        {
+          "text": "tell me how to initialize a function"
+        },
+        {
+          "text": "tell me how to set up a function"
+        },
+        {
+          "text": "tell me how to write a function"
+        },
+        {
+          "text": "tell me the syntax for initializing an array"
+        },
+        {
+          "text": "tell me the syntax for setting up an array"
+        },
+        {
+          "text": "Tell me the syntax for while-loop"
+        },
+        {
+          "text": "tell me the syntax for writing an array"
+        },
+        {
+          "text": "tell me the syntax of an array"
+        },
+        {
+          "text": "Tell the syntax for creating a variable in Java"
+        },
+        {
+          "text": "type casting in Java"
+        },
+        {
+          "text": "What is the syntax for an array in Java?"
+        },
+        {
+          "text": "what is the syntax for creating an array"
+        },
+        {
+          "text": "what is the syntax for initializing an array"
+        },
+        {
+          "text": "what is the syntax for setting up an array"
+        },
+        {
+          "text": "What is the syntax for type casting?"
+        },
+        {
+          "text": "What is the syntax for writing a comment"
+        }
+      ],
+      "description": "Questions that pertain to Java's syntax."
+    },
+    {
+      "intent": "what_is_the_difference",
+      "examples": [
+        {
+          "text": "Are classes and objects the same thing?"
+        },
+        {
+          "text": "can you tell me the difference between a class versus an object"
+        },
+        {
+          "text": "can you tell me the difference between class vs object"
+        },
+        {
+          "text": "can you tell me the difference between override and overload"
+        },
+        {
+          "text": "can you tell me the difference in a class and an object"
+        },
+        {
+          "text": "can you tell me the difference in class and object"
+        },
+        {
+          "text": "can you tell me the main difference between override and overload"
+        },
+        {
+          "text": "Class and object difference"
+        },
+        {
+          "text": "Class versus object difference"
+        },
+        {
+          "text": "Class vs object difference"
+        },
+        {
+          "text": "Difference between a structure and a class"
+        },
+        {
+          "text": "difference between class and object"
+        },
+        {
+          "text": "difference in class and object"
+        },
+        {
+          "text": "difference in class versus object"
+        },
+        {
+          "text": "difference in class vs object"
+        },
+        {
+          "text": "how are override and overload different"
+        },
+        {
+          "text": "how is override and overload different"
+        },
+        {
+          "text": "Is a class the same thing as an object?"
+        },
+        {
+          "text": "i want to know the difference between override and overload"
+        },
+        {
+          "text": "main difference between a class and an object"
+        },
+        {
+          "text": "main difference between class and object"
+        },
+        {
+          "text": "main difference between class vs object"
+        },
+        {
+          "text": "main difference in class and object"
+        },
+        {
+          "text": "static vs dynamic binding"
+        },
+        {
+          "text": "tell me the difference between a class and an object"
+        },
+        {
+          "text": "tell me the difference in a class and an object"
+        },
+        {
+          "text": "tell me the difference in class and object"
+        },
+        {
+          "text": "tell me the main difference between a class and an object"
+        },
+        {
+          "text": "What are the main differences between overloading and overriding?"
+        },
+        {
+          "text": "what is class versus object"
+        },
+        {
+          "text": "What is class vs object"
+        },
+        {
+          "text": "what is class vs. object"
+        },
+        {
+          "text": "What is early and late binding?"
+        },
+        {
+          "text": "What is overloading versus overriding"
+        },
+        {
+          "text": "What is static and dynamic binding?"
+        },
+        {
+          "text": "what is the difference between a class and a object"
+        },
+        {
+          "text": "what is the difference between method override and method overload"
+        },
+        {
+          "text": "What is the difference between new and override?"
+        },
+        {
+          "text": "What is the difference between structure and a class?"
+        },
+        {
+          "text": "what is the difference in a class and an object"
+        },
+        {
+          "text": "What is the main difference between a class and an object"
+        },
+        {
+          "text": "What is the main difference between a class and an object?"
+        },
+        {
+          "text": "what is the main difference in a class and an object"
+        },
+        {
+          "text": "whats the difference between override and overload"
+        },
+        {
+          "text": "when do I use a structure instead of a class?"
+        },
+        {
+          "text": "when do I use early vs. late binding"
+        },
+        {
+          "text": "when do I use new instead of override"
+        }
+      ],
+      "description": "Questions for the differences between subjects."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "concept",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "main concepts",
+          "synonyms": [
+            "basic concepts",
+            "concepts in",
+            "concepts of",
+            "four concepts",
+            "four main concepts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "necessary information",
+          "synonyms": [
+            "data",
+            "information",
+            "necessary data",
+            "visible data",
+            "visible information"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reuse mechanism",
+          "synonyms": [
+            "has the ability to reuse",
+            "reause",
+            "reusability",
+            "reuse mechanisms"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "differences",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "class and object",
+          "synonyms": [
+            "classes and objects",
+            "classes objects",
+            "classes versus objects",
+            "classes vs objects",
+            "class object",
+            "class versus object",
+            "class vs object"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "early and late binding",
+          "synonyms": [
+            "early binding and late binding",
+            "early binding late binding",
+            "early binding versus late binding",
+            "early binding vs late binding",
+            "early late binding",
+            "early versus late binding",
+            "early vs late binding",
+            "late and early binding",
+            "late binding and early binding",
+            "late binding versus early binding",
+            "late binding vs early binding",
+            "late vs early binding"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new and override",
+          "synonyms": [
+            "new modifier and override modifier",
+            "new modifier versus override modifier",
+            "new modifier vs override modifier",
+            "new override",
+            "new versus override",
+            "new versus override modifier",
+            "new vs override",
+            "override and new",
+            "override modifier and new modifier",
+            "override modifier vs new modifier",
+            "override vs new"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "overloading and overriding",
+          "synonyms": [
+            "overload and override",
+            "overloading overriding",
+            "overloading versus overriding",
+            "overloading vs overriding",
+            "overload versus override",
+            "overload vs override",
+            "override and overload",
+            "override overload",
+            "override versus overload",
+            "override vs overload",
+            "overriding and overloading",
+            "overriding overloading",
+            "overriding versus overloading",
+            "overriding vs overloading"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "static and dynamic binding",
+          "synonyms": [
+            "dynamic and static binding",
+            "dynamic binding and static binding",
+            "dynamic binding versus static binding",
+            "dynamic binding vs static binding",
+            "dynamic static binding",
+            "dynamic versus static binding",
+            "dynamic vs static binding",
+            "static and dynamic",
+            "static binding and dynamic binding",
+            "static binding dynamic binding",
+            "static binding versus dynamic binding",
+            "static binding vs dynamic binding",
+            "static dynamic",
+            "static versus dynamic binding",
+            "static vs dynamic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "structure and class",
+          "synonyms": [
+            "a class and a structure",
+            "a class versus a structure",
+            "a class vs a structure",
+            "a structure and a class",
+            "a structure versus a class",
+            "a structure vs. a class",
+            "class and structure",
+            "class versus structure",
+            "class vs structure",
+            "structure versus class",
+            "structure vs class"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "errors",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cannot find symbol",
+          "synonyms": [
+            "Cannot resolve symbol",
+            "Symbol not found"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Illegal Start of an Expression",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "incompatible types",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Missing Return Value",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NullPointerException",
+          "synonyms": [
+            "java.lang.NullPointerException"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Operator Cannot be Applied to",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OutOfMemoryError",
+          "synonyms": [
+            "java.lang.OutOfMemoryError:"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "public class should be in file",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reached end of file while parsing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "StackOverflowError",
+          "synonyms": [
+            "Stack Overflow Error"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "howtouse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abstract class",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "base method",
+          "synonyms": [
+            "base method without creating an instance",
+            "call base method"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "default access modifier",
+          "synonyms": [
+            "default modifier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "default access specifier",
+          "synonyms": [
+            "access specifier",
+            "default specifier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "finalize method",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "overloading",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "parameter for constructor",
+          "synonyms": [
+            "parameter for constructors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "static method",
+          "synonyms": [
+            "nonstatic member"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "options",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Example",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Explanation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NoExample",
+          "synonyms": [
+            "No Example"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NoExplanation",
+          "synonyms": [
+            "No Explanation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "terms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abstract class",
+          "synonyms": [
+            "abstract classes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "abstraction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "array",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "base class",
+          "synonyms": [
+            "baseclass",
+            "base classes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "class",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "comment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "constructor",
+          "synonyms": [
+            "constructors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "copy constructor",
+          "synonyms": [
+            "copy constructors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "destructor",
+          "synonyms": [
+            "destructors"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dynamic polymorphism",
+          "synonyms": [
+            "run time polymorphism",
+            "runtime polymorphism"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "encapsulation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "exception handling",
+          "synonyms": [
+            "exception handle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "for-loop",
+          "synonyms": [
+            "for loop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "friend function",
+          "synonyms": [
+            "friend functions",
+            "friend method",
+            "friend methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "function",
+          "synonyms": [
+            "functions",
+            "method",
+            "methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "function overload",
+          "synonyms": [
+            "function overloading",
+            "function overloads",
+            "method overload",
+            "method overloading",
+            "method overloads",
+            "overload",
+            "overloading"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "if-else",
+          "synonyms": [
+            "if else",
+            "if else statement",
+            "if-else statement",
+            "if statement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inheritance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "inline function",
+          "synonyms": [
+            "inline functions",
+            "inline method",
+            "inline methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "interface",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "manipulators",
+          "synonyms": [
+            "manipulator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "method overriding",
+          "synonyms": [
+            "function override",
+            "function overriding",
+            "method overide",
+            "method overiding",
+            "method override",
+            "override",
+            "overriding"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "object",
+          "synonyms": [
+            "objects"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "operator overload",
+          "synonyms": [
+            "operator overloading"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "polymorphism",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pure virtual function",
+          "synonyms": [
+            "pure virtual functions",
+            "pure virtual method",
+            "pure virtual methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sealed modifiers",
+          "synonyms": [
+            "sealed modifier",
+            "seal modifier",
+            "seal modifiers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "subclass",
+          "synonyms": [
+            "sub class",
+            "sub-class",
+            "subclasses",
+            "sub classes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "superclass",
+          "synonyms": [
+            "super class",
+            "superclasses",
+            "super classes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "super keyword",
+          "synonyms": [
+            "super keywords"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ternary operator",
+          "synonyms": [
+            "ternary operators"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "'this' pointer",
+          "synonyms": [
+            "pointer this",
+            "pointer 'this'",
+            "this pointer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tokens",
+          "synonyms": [
+            "token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "type casting",
+          "synonyms": [
+            "casting",
+            "type-casting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "variable",
+          "synonyms": [
+            "variables"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "virtual function",
+          "synonyms": [
+            "virtual functions",
+            "virtual method",
+            "virtual methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "while-loop",
+          "synonyms": [
+            "while loop"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1604545804666",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "New and Override",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The new modifier instructs the compiler to use the new implementation instead of the base class function. Whereas, the override modifier helps to override the base class function."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "@differences:(new and override)",
+      "dialog_node": "node_10_1603651230266",
+      "previous_sibling": "node_2_1603651210325"
+    },
+    {
+      "type": "standard",
+      "title": "reuse mechanism",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inheritance is the OOPS concept that can be used as a reuse mechanism."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1603916833378",
+      "conditions": "@concept:(reuse mechanism)",
+      "dialog_node": "node_10_1603922813276"
+    },
+    {
+      "type": "folder",
+      "title": "differences",
+      "conditions": "#what_is_the_difference",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1603979728091",
+      "previous_sibling": "node_5_1603916833378"
+    },
+    {
+      "type": "standard",
+      "title": "Manipulators",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Manipulators are the functions which can be used in conjunction with the insertion (<<) and extraction (>>) operators on an object. Examples are endl and setw."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:manipulators",
+      "dialog_node": "node_10_1604511872811",
+      "previous_sibling": "node_2_1603937691247"
+    },
+    {
+      "type": "standard",
+      "title": "illegal start",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is a common syntax error in java. Most commonly caused by missing a } somewhere. If you have checked and this is not the case you may find more luck looking at these StackOverflow threads.\nhttps://stackoverflow.com/search?q=%22illegal+start+of+an+expression%22+java"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(Illegal Start of an Expression)",
+      "dialog_node": "node_10_1604535055095",
+      "previous_sibling": "node_4_1604534712037"
+    },
+    {
+      "type": "standard",
+      "title": "base method",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, it is possible to call the base method without creating an instance. And that method should be “Static method.” Doing Inheritance from that class.-Use Base Keyword from a derived class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(base method)",
+      "dialog_node": "node_10_1604547036849",
+      "previous_sibling": "node_6_1604547001235"
+    },
+    {
+      "type": "standard",
+      "title": "Functions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "public class MyClass {\n  static void myMethod() {\n    // code to be executed\n  }\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:function",
+      "dialog_node": "node_10_1604567367002"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java if-else statements: https://www.w3schools.com/java/java_conditions.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604570635931",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_10_1605457890282",
+      "previous_sibling": "node_9_1605457886656"
+    },
+    {
+      "type": "standard",
+      "title": "Operator Cannot be Applied to",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This error is caused by attempting to apply a non compatible type to a variable. Here is a relevant StackOverflow thread. https://stackoverflow.com/questions/26890817/error-operator-cannot-be-applied"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(Operator Cannot be Applied to)",
+      "dialog_node": "node_10_1605722292017",
+      "previous_sibling": "node_6_1604536496053"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/manipulators-in-c-with-examples/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604511872811",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_11_1604511872813"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In object-oriented computer programming languages, the notion of encapsulation refers to the bundling of data, along with the methods that operate on that data, into a single unit. Many programming languages use encapsulation frequently in the form of classes. A class is a program-code-template that allows developers to create an object that has both variables (data) and behaviors (functions or methods). A class is an example of encapsulation in that it consists of data and methods that have been bundled into a single unit.\n\nEncapsulation may also refer to a mechanism of restricting the direct access to some components of an object, such that users cannot access state values for all of the variables of a particular object. Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/encapsulation-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1603937691247",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_1_1603938079004"
+    },
+    {
+      "type": "standard",
+      "title": "Inheritance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inheritance is a concept where one class shares the structure and behavior defined in another class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need another explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:inheritance",
+      "dialog_node": "node_1_1603982337053"
+    },
+    {
+      "type": "standard",
+      "title": "Abstraction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Abstraction is a useful feature of OOPS, and it shows only the necessary details to the client of an object. Meaning, it shows only required details for an object, not the inner constructors, of an object.\n \nExample – When you want to switch on the television, it is not necessary to know the inner circuitry/mechanism needed to switch on the TV. Whatever is required to switch on TV will be shown by using an abstract class."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need another explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:abstraction",
+      "dialog_node": "node_1_1604508754069",
+      "previous_sibling": "node_1_1603982337053"
+    },
+    {
+      "type": "standard",
+      "title": "Variables",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "type variable = value;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:variable",
+      "dialog_node": "node_1_1604570323971",
+      "previous_sibling": "node_10_1604567367002"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "public class MyClass {\n  static void myMethod() {\n    System.out.println(\"I just got executed!\");\n  }\n\n  public static void main(String[] args) {\n    myMethod();\n  }\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604567367002",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1604567367002"
+      },
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1604950808843"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "String name = \"Bob\";"
+              },
+              {
+                "text": "int number = 5;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1604570323971",
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1604951861069"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "for (int i = 0; i < 5; i++) {\n  System.out.println(i);\n}\n\nThe code above will print the value of \"i\" on each iteration, leaving the numbers 0-4 printed out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1604570409557",
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1605456405811"
+    },
+    {
+      "type": "standard",
+      "title": "NullPointerException",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "NullPointerException is an error than occurs when an object pointer does not have a value assigned to it. For a deeper discussion on this error please refer to this StackOverflow thread.\nhttps://stackoverflow.com/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:NullPointerException",
+      "dialog_node": "node_1_1605723605466",
+      "previous_sibling": "node_5_1605723303800"
+    },
+    {
+      "type": "standard",
+      "title": "Constructor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A constructor is a method used to initialize the state of an object, and it gets invoked at the time of object creation. \nRules for constructor are:\nConstructor Name should be the same as a class name.\nA constructor must have no return type."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:constructor",
+      "dialog_node": "node_12_1604512445655",
+      "previous_sibling": "node_4_1604508969879"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/constructors-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1604512445655",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_13_1604512445657"
+    },
+    {
+      "type": "standard",
+      "title": "Destructor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A destructor is a method which is automatically called when the object is made of scope or destroyed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:destructor",
+      "dialog_node": "node_14_1604528167940",
+      "previous_sibling": "node_12_1604512445655"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Destructor is a method called when the destruction of an object takes place. “ The main goal of the destructor is to free up the allocated memory and also to clean up resources like the closing of open files, closing of database connections, closing network resources, etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/destructors-c/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1604528167940",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_15_1604528167941"
+    },
+    {
+      "type": "standard",
+      "title": "Inline Function",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An inline function is a technique used by the compilers and instructs to insert complete body of the function wherever that function is used in the program source code."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(inline function)",
+      "dialog_node": "node_16_1604528392881",
+      "previous_sibling": "node_14_1604528167940"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inline function is a function that is expanded in line when it is called. When the inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/inline-functions-cpp/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1604528392881",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_17_1604528392882"
+    },
+    {
+      "type": "standard",
+      "title": "Virtual Function",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A virtual function is a member function of a class, and its functionality can be overridden in its derived class. This function can be implemented by using a keyword called virtual, and it can be given during function declaration."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(virtual function)",
+      "dialog_node": "node_18_1604529449693",
+      "previous_sibling": "node_16_1604528392881"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/virtual-function-cpp/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1604529449693",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_19_1604529449695"
+    },
+    {
+      "type": "standard",
+      "title": "Friend Function",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A friend function is a friend of a class that is allowed to access to Public, private, or protected data in that same class. If the function is defined outside the class cannot access such information."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(friend function)",
+      "dialog_node": "node_20_1604529582476",
+      "previous_sibling": "node_18_1604529449693"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/friend-class-function-cpp/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1604529582476",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_21_1604529582477"
+    },
+    {
+      "type": "standard",
+      "title": "Class and Object",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An object is an instance of a class. Objects hold multiple information, but classes don’t have any information. Definition of properties and functions can be done in class and can be used by the object. A class can have sub-classes, while an object doesn’t have sub-objects."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "  @differences:(class and object)",
+      "dialog_node": "node_2_1603651210325",
+      "previous_sibling": "node_8_1603651099110"
+    },
+    {
+      "type": "standard",
+      "title": "Static and Dynamic Binding",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Binding is nothing but the association of a name with the class. Static Binding is a binding in which name can be associated with the class during compilation time, and it is also called as early Binding.\n\nDynamic Binding is a binding in which name can be associated with the class during execution time, and it is also called as Late Binding."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "@differences:(static and dynamic binding)",
+      "dialog_node": "node_2_1603651296660",
+      "previous_sibling": "node_3_1603651278728"
+    },
+    {
+      "type": "standard",
+      "title": "Encapsulation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:encapsulation",
+      "dialog_node": "node_2_1603937691247",
+      "previous_sibling": "node_1_1604508754069"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inheritance is when a class derives from another class. The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods. An inherited class is defined by using the extends keyword."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/inheritance-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1603982337053",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_2_1603939119670"
+    },
+    {
+      "type": "standard",
+      "title": "Arrays",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "type[] variable = {item1, item2, item3};"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:array",
+      "dialog_node": "node_2_1604570370427",
+      "previous_sibling": "node_1_1604570323971"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "String[] namesList = {\"Bob\", \"George\", \"Carl\"};"
+              },
+              {
+                "text": "int[] numbersList = {1, 6, 5, 12, 100};"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1604570370427",
+      "conditions": "@options:Example",
+      "dialog_node": "node_2_1604951963711"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java variables: https://www.w3schools.com/java/java_variables.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1604570323971",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_2_1605457049459",
+      "previous_sibling": "node_1_1604951861069"
+    },
+    {
+      "type": "standard",
+      "title": "Function Overload",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Function overloading is a regular function, but it can perform different tasks. It allows the creation of several methods with the same name which differ from each other by the type of input and output of the function."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(function overload)",
+      "dialog_node": "node_22_1604529695372",
+      "previous_sibling": "node_20_1604529582476"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Function Overloading is a feature that allows a class to have more than one function having the same name, if their argument lists are different. It is similar to constructor overloading in Java, that allows a class to have more than one constructor having different argument lists."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/overloading-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1604529695372",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_23_1604529695374"
+    },
+    {
+      "type": "standard",
+      "title": "Function Override",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Method Overriding is a feature that allows a subclass to provide the implementation of a method that overrides in the main class. It will override the implementation in the superclass by providing the same method name, same parameter, and same return type."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(method overriding)",
+      "dialog_node": "node_24_1604529931431",
+      "previous_sibling": "node_22_1604529695372"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Method overriding, in object-oriented programming, is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its superclasses or parent classes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/overriding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1604529931431",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_25_1604529931434"
+    },
+    {
+      "type": "standard",
+      "title": "Operator Overload",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Operator overloading is a specific case of polymorphism, where different operators have different implementations depending on their arguments. Operator overloading is generally defined by a programming language, a programmer, or both."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "Another Explanation",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(operator overload)",
+      "dialog_node": "node_26_1604530198033",
+      "previous_sibling": "node_24_1604529931431"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Operator overloading is the ability to redefine the functionality of the operators."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/overloading-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1604530198033",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_27_1604530198035"
+    },
+    {
+      "type": "standard",
+      "title": "Abstract Class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An abstract class is a class which cannot be instantiated. Creation of an object is not possible with an abstract class, but it can be inherited. An abstract class can contain only an Abstract method. Java allows only abstract method in abstract class while other languages allow non-abstract method as well."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(abstract class)",
+      "dialog_node": "node_28_1604532797585",
+      "previous_sibling": "node_26_1604530198033"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/abstract-classes-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1604532797585",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_29_1604532797586"
+    },
+    {
+      "type": "standard",
+      "title": "Ternary operator",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The ternary operator is an operator that takes three arguments. The first argument is a comparison argument, the second is the result upon a true comparison, and the third is the result upon a false comparison. If it helps you can think of the operator as shortened way of writing an if-else statement."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(ternary operator)",
+      "dialog_node": "node_30_1604534549000",
+      "previous_sibling": "node_28_1604532797585"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The ternary operator is also known as the conditional operator. This operator consists of three operands and is used to evaluate Boolean expressions. The goal of the operator is to decide, which value should be assigned to the variable."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/java-ternary-operator-with-examples/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1604534549000",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_31_1604534549001"
+    },
+    {
+      "type": "standard",
+      "title": "Structure and Class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The default access type of a Structure is public, but class access type is private. A structure is used for grouping data, whereas a class can be used for grouping data and methods. Structures are exclusively used for data, and it doesn’t require strict validation, but classes are used to encapsulate and inherent data, which requires strict validation."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "@differences:(structure and class)",
+      "dialog_node": "node_3_1603651278728",
+      "previous_sibling": "node_5_1603651260241"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Abstraction is the concept of object-oriented programming that \"shows\" only essential attributes and \"hides\" unnecessary information. ... Abstraction is selecting data from a larger pool to show only relevant details of the object to the user. It helps in reducing programming complexity and efforts."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/abstraction-in-java-2/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1604508754069",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_3_1604508830686"
+    },
+    {
+      "type": "standard",
+      "title": "Public Class should be in file",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This error message is caused by the name of the class and the name of the file being different. This is case sensitive. If you are still unsure you may find the following StackOverflow thread useful.\nhttps://stackoverflow.com/questions/13811020/error-class-x-is-public-should-be-declared-in-a-file-named-x-java"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(public class should be in file)",
+      "dialog_node": "node_3_1604535498325",
+      "previous_sibling": "node_10_1604535055095"
+    },
+    {
+      "type": "standard",
+      "title": "parameter for constructors",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, we do not require a parameter for constructors."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(parameter for constructor)",
+      "dialog_node": "node_3_1604546941283",
+      "previous_sibling": "node_8_1604546904243"
+    },
+    {
+      "type": "standard",
+      "title": "For-Loops",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "for (statement1; statement2; statement3) {\n  // code block to be executed\n}\n\nWhere statement1 is executed (one time) before the execution of the code block, statement2 defines the condition for executing the code block, and statement3 is executed (every time) after the code block has been executed.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:for-loop",
+      "dialog_node": "node_3_1604570409557",
+      "previous_sibling": "node_2_1604570370427"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java arrays: https://www.w3schools.com/java/java_arrays.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1604570370427",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_3_1605457150152",
+      "previous_sibling": "node_2_1604951963711"
+    },
+    {
+      "type": "standard",
+      "title": "Interface",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An interface is a collection of an abstract method. If the class implements an interface, it thereby inherits all the abstract methods of an interface. Java uses Interface to implement multiple inheritances."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:interface",
+      "dialog_node": "node_32_1604534727963",
+      "previous_sibling": "node_30_1604534549000"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The purpose of interfaces is to allow the computer to enforce these properties and to know that an object of TYPE T (whatever the interface is ) must have functions called X,Y,Z, etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/interfaces-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1604534727963",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_33_1604534727964"
+    },
+    {
+      "type": "standard",
+      "title": "Exception Handling",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. Those exceptions are adequately handled through exception handling mechanism like try, catch, and throw keywords."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(exception handling)",
+      "dialog_node": "node_34_1604535088939",
+      "previous_sibling": "node_32_1604534727963"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Exception handling ensures that the flow of the program doesn't break when an exception occurs. For example, if a program has bunch of statements and an exception occurs mid way after executing certain statements then the statements after the exception will not execute and the program will terminate abruptly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/exceptions-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_34_1604535088939",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_35_1604535088940"
+    },
+    {
+      "type": "standard",
+      "title": "Token",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A token is the smallest element of a program that is meaningful to the compiler. Tokens can be classified as follows:\nKeywords\nIdentifiers\nConstants\nSpecial Symbols\nOperators"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:tokens",
+      "dialog_node": "node_36_1604537697455",
+      "previous_sibling": "node_34_1604535088939"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A compiler recognizes a token, and it cannot be broken down into component elements.\nEven punctuation characters are also considered as tokens. Example: Brackets, Commas, Braces, and Parentheses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/exceptions-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1604537697455",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_37_1604537697458"
+    },
+    {
+      "type": "standard",
+      "title": "Super Keyword",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The super keyword is used to invoke the overridden method, which overrides one of its superclass methods. This keyword allows to access overridden methods and also to access hidden members of the superclass.\nIt also forwards a call from a constructor, to a constructor in the superclass."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(super keyword)",
+      "dialog_node": "node_38_1604537825974",
+      "previous_sibling": "node_36_1604537697455"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The super keyword in java is a reference variable that is used to refer parent class objects. The keyword “super” came into the picture with the concept of Inheritance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/super-and-this-keywords-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1604537825974",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_39_1604537825977"
+    },
+    {
+      "type": "standard",
+      "title": "'this' pointer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "THIS pointer refers to the current object of a class. THIS keyword is used as a pointer which differentiates between the current object with the global object. It refers to the current object."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:('this' pointer)",
+      "dialog_node": "node_40_1604537945247",
+      "previous_sibling": "node_38_1604537825974"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The this pointer is a pointer accessible only within the nonstatic member functions of a class , struct , or union type. It points to the object for which the member function is called."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/super-and-this-keywords-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_40_1604537945247",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_41_1604537945249"
+    },
+    {
+      "type": "standard",
+      "title": "encapsulation exposure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Encapsulation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1603916833378",
+      "conditions": "@concept:(necessary information)",
+      "dialog_node": "node_4_1603924110659",
+      "previous_sibling": "node_8_1603918876097"
+    },
+    {
+      "type": "standard",
+      "title": "GoodBye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Have a Great Day! Goodbye. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@options:no",
+      "dialog_node": "node_4_1603985073678",
+      "previous_sibling": "node_8_1603985237563"
+    },
+    {
+      "type": "standard",
+      "title": "Polymorphism",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Polymorphism is nothing but assigning behavior or value in a subclass to something that was already declared in the main class. Simply, polymorphism takes more than one form."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:polymorphism",
+      "dialog_node": "node_4_1604508969879",
+      "previous_sibling": "node_6_1604509674953"
+    },
+    {
+      "type": "standard",
+      "title": "symbol",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please refer to this StackOverflow thread about the \"Cannot Find Symbol\" error message.\nhttps://stackoverflow.com/questions/25706216/what-does-a-cannot-find-symbol-or-cannot-resolve-symbol-error-mean"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(Cannot find symbol)",
+      "dialog_node": "node_4_1604534712037"
+    },
+    {
+      "type": "standard",
+      "title": "overloading",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Operator keyword is used for overloading."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:overloading",
+      "dialog_node": "node_4_1604546876608",
+      "previous_sibling": "node_7_1604546835469"
+    },
+    {
+      "type": "standard",
+      "title": "While-Loops",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "while (condition) {\n  // code block to be executed\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:while-loop",
+      "dialog_node": "node_4_1604570488622",
+      "previous_sibling": "node_3_1604570409557"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java functions/methods: https://www.w3schools.com/java/java_methods.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604567367002",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_4_1605456888387",
+      "previous_sibling": "node_1_1604950808843"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java for-loops: https://www.w3schools.com/java/java_for_loop.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1604570409557",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_4_1605457327834",
+      "previous_sibling": "node_1_1605456405811"
+    },
+    {
+      "type": "standard",
+      "title": "Missing Return Value",
+      "parent": "node_9_1603982164627",
+      "conditions": "@",
+      "dialog_node": "node_4_1605722492381",
+      "previous_sibling": "node_52_1604539165255"
+    },
+    {
+      "type": "standard",
+      "title": "pure virtual function",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A pure virtual function is a function which can be overridden in the derived class but cannot be defined. A virtual function can be declared as Pure by using the operator =0."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(pure virtual function)",
+      "dialog_node": "node_42_1604538417792",
+      "previous_sibling": "node_40_1604537945247"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A pure virtual function or pure virtual method is a virtual function that is required to be implemented by a derived class if the derived class is not abstract. Classes containing pure virtual methods are termed \"abstract\" and they cannot be instantiated directly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1604538417792",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_43_1604538417794"
+    },
+    {
+      "type": "standard",
+      "title": "dynamic polymorphism",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dynamic or Run time polymorphism is also known as method overriding in which call to an overridden function is resolved during run time, not at the compile time. It means having two or more methods with the same name, same signature but with different implementation."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(dynamic polymorphism)",
+      "dialog_node": "node_44_1604538662777",
+      "previous_sibling": "node_42_1604538417792"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dynamic Polymorphism allows Java to support overriding of methods which is central for run-time polymorphism. It allows a class to specify methods that will be common to all of its derivatives while allowing subclasses to define the specific implementation of some or all of those methods."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/polymorphism-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_44_1604538662777",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_45_1604538662778"
+    },
+    {
+      "type": "standard",
+      "title": "Copy Constructor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Copy Constructor is a special constructor for creating a new object as a copy of an existing object. There will always be only one copy constructor that can be either defined by the user or the system."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(copy constructor)",
+      "dialog_node": "node_46_1604538862648",
+      "previous_sibling": "node_44_1604538662777"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously. The copy constructor is used to − Initialize one object from another of the same type."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/copy-constructor-in-cpp/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_46_1604538862648",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_47_1604538862649"
+    },
+    {
+      "type": "standard",
+      "title": "Base Class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The base class is the most generalized class, and it is said to be a root class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:(base class)",
+      "dialog_node": "node_48_1604538979589",
+      "previous_sibling": "node_46_1604538862648"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A base class is a class, in an object-oriented programming language, from which other classes are derived. It facilitates the creation of other classes that can reuse the code implicitly inherited from the base class (except constructors and destructors)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1604538979589",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_49_1604538979590"
+    },
+    {
+      "type": "standard",
+      "title": "Subclass",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Subclass is a class that inherits from one or more base classes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:subclass",
+      "dialog_node": "node_50_1604539099737",
+      "previous_sibling": "node_48_1604538979589"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A subclass is a class that derives from another class. A subclass inherits state and behavior from all of its ancestors."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_50_1604539099737",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_51_1604539099739"
+    },
+    {
+      "type": "standard",
+      "title": "Early and Late Binding",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Early binding refers to the assignment of values to variables during design time, whereas late Binding refers to the assignment of values to variables during run time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "@differences:(early and late binding)",
+      "dialog_node": "node_5_1603651260241",
+      "previous_sibling": "node_10_1603651230266"
+    },
+    {
+      "type": "standard",
+      "title": "Concepts",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#concepts",
+      "dialog_node": "node_5_1603916833378",
+      "previous_sibling": "node_9_1603982164627"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/polymorphism-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1604508969879",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_5_1604508969879"
+    },
+    {
+      "type": "standard",
+      "title": "incompatible types",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This error message indicates you are attempting to perform an operation on a datatype that is not compatible with that operation. Here is a StackOverFlow thread that may help your understanding.\nhttps://stackoverflow.com/questions/7466133/java-error-incompatible-types-message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(incompatible types)",
+      "dialog_node": "node_5_1604535836680",
+      "previous_sibling": "node_3_1604535498325"
+    },
+    {
+      "type": "standard",
+      "title": "Comments",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For single-line comments, any text after 2 forward slashes (//) will be considered as a comment. Simply use: \n//Your comment\n\nFor multi-line comments, any text between /* and */ is considered a comment. Simply use:\n/*\nYour comment\n*/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:comment",
+      "dialog_node": "node_5_1604570537902",
+      "previous_sibling": "node_4_1604570488622"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "int i = 0;\nwhile (i < 5) {\n  System.out.println(i);\n  i++;\n}\n\nThe code above will print the value of \"i\" on each iteration, leaving the numbers 0-4 printed out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1604570488622",
+      "conditions": "@options:Example",
+      "dialog_node": "node_5_1605457460354"
+    },
+    {
+      "type": "standard",
+      "title": "OutOfMemoryError",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OutOfMemoryError is an error that is caused by constructing objects inside of an infinite loop. Refer to this StackOverflow thread for more information and how to increase your maximum heap.\nhttps://stackoverflow.com/questions/37335/how-to-deal-with-java-lang-outofmemoryerror-java-heap-space-error"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:OutOfMemoryError",
+      "dialog_node": "node_5_1605723303800",
+      "previous_sibling": "node_7_1605723049201"
+    },
+    {
+      "type": "standard",
+      "title": "Superclass",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The superclass is the parent class from which another class inherits."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:superclass",
+      "dialog_node": "node_52_1604539165255",
+      "previous_sibling": "node_50_1604539099737"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In object-oriented programming, a class from which other classes inherit code is called a superclass. Furthermore, the class that inherits the code is called a subclass of that superclass. Typically, a subclass inherits the instance variables and member functions of its superclass"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1604539165255",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_53_1604539165256"
+    },
+    {
+      "type": "standard",
+      "title": "Another Question?",
+      "output": {
+        "generic": [
+          {
+            "title": "Okay. Do you have another question to ask?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@options:NoExplanation || @options:NoExample",
+      "dialog_node": "node_6_1603984968702",
+      "previous_sibling": "node_4_1603985073678"
+    },
+    {
+      "type": "standard",
+      "title": "Class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A class is a representation of a type of object. It is a blueprint/plan/template that describes the details of an object."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:class",
+      "dialog_node": "node_6_1604509674953",
+      "previous_sibling": "node_8_1604511766126"
+    },
+    {
+      "type": "standard",
+      "title": "reached end of file while parsing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is a common error message resulting in a lack of a } curly brace. Here is a relevant discussion on the topic from StackOverflow.\nhttps://stackoverflow.com/questions/4934412/java-compile-error-reached-end-of-file-while-parsing"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(reached end of file while parsing)",
+      "dialog_node": "node_6_1604536496053",
+      "previous_sibling": "node_5_1604535836680"
+    },
+    {
+      "type": "folder",
+      "title": "how to use",
+      "conditions": "@howtouse:(finalize method)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1604545804666",
+      "previous_sibling": "node_7_1604534642639"
+    },
+    {
+      "type": "standard",
+      "title": "static method",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "False"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(static method)",
+      "dialog_node": "node_6_1604546807504",
+      "previous_sibling": "node_9_1604546758599"
+    },
+    {
+      "type": "standard",
+      "title": "default access modifier",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The default access modifier of a class is Private by default."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(default access modifier)",
+      "dialog_node": "node_6_1604547001235",
+      "previous_sibling": "node_3_1604546941283"
+    },
+    {
+      "type": "folder",
+      "title": "Java Syntax",
+      "conditions": "#java_syntax",
+      "dialog_node": "node_6_1604567334896",
+      "previous_sibling": "node_6_1603984968702"
+    },
+    {
+      "type": "standard",
+      "title": "If-Else Statements",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "if (condition) {\n  // block of code to be executed if the condition is true\n} else {\n  // block of code to be executed if the condition is false\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Show me an example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Show me another explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need anything further for this question",
+                "value": {
+                  "input": {
+                    "text": "NoExample"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:if-else",
+      "dialog_node": "node_6_1604570635931",
+      "previous_sibling": "node_5_1604570537902"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java while-loops: https://www.w3schools.com/java/java_while_loop.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1604570488622",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_6_1605457462945",
+      "previous_sibling": "node_5_1605457460354"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Class are a blueprint or a set of instructions to build a specific type of object. It is a basic concept of Object-Oriented Programming which revolve around the real-life entities. Class in Java determines how an object will behave and what the object will contain."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/classes-objects-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604509674953",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_7_1604509674955"
+    },
+    {
+      "type": "folder",
+      "title": "Errors",
+      "conditions": "@errors",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1604534642639",
+      "previous_sibling": "node_10_1603979728091"
+    },
+    {
+      "type": "standard",
+      "title": "abstactclass",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Zero instances will be created for an abstract class. In other words, you cannot create an instance of an Abstract Class"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(abstract class)",
+      "dialog_node": "node_7_1604546835469",
+      "previous_sibling": "node_6_1604546807504"
+    },
+    {
+      "type": "standard",
+      "title": "Type Casting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "(newDataType) variable\n\n*notice: not all data types can be casted to other data types\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Example?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need another explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604567334896",
+      "conditions": "@terms:(type casting)",
+      "dialog_node": "node_7_1604570706619",
+      "previous_sibling": "node_6_1604570635931"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "//this is an example of a single-line comment\n\n/*\nthis is an example\nof a multi-line comment\n*/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1604570537902",
+      "conditions": "@options:Example",
+      "dialog_node": "node_7_1605457604260"
+    },
+    {
+      "type": "standard",
+      "title": "Missing Return Value",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Missing Return Value error is caused by the return statement of a function either not existing or returning a null type. Double check to make sure it is populated. Here is a relevant CodeRanch thread for deeper debugging. https://coderanch.com/t/566414/java/missing-return-error"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:(Missing Return Value)",
+      "dialog_node": "node_7_1605722774497",
+      "previous_sibling": "node_10_1605722292017"
+    },
+    {
+      "type": "standard",
+      "title": "StackOverflowError",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The StackOverflow error is caused by a function having infinite recursion. Here is a relevant thread about the StackOverflow error in java on StackOverflow.com\nhttps://stackoverflow.com/questions/214741/what-is-a-stackoverflowerror"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604534642639",
+      "conditions": "@errors:StackOverflowError",
+      "dialog_node": "node_7_1605723049201",
+      "previous_sibling": "node_7_1605722774497"
+    },
+    {
+      "type": "standard",
+      "title": "Overloading and Overriding",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Overloading is static Binding, whereas Overriding is dynamic Binding. Overloading is nothing but the same method with different arguments, and it may or may not return the equal value in the same class itself. Overriding is the same method names with the same arguments and return types associated with the class and its child class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603979728091",
+      "conditions": "@differences:(overloading and overriding)",
+      "dialog_node": "node_8_1603651099110"
+    },
+    {
+      "type": "standard",
+      "title": "concept answers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The four main concepts of OOP are Abstraction, Encapsulation, Inheritance and Polymorphism."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1603916833378",
+      "conditions": "@concept:(main concepts)",
+      "dialog_node": "node_8_1603918876097",
+      "previous_sibling": "node_10_1603922813276"
+    },
+    {
+      "type": "standard",
+      "title": "What is your next question?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, what is your next question?"
+              },
+              {
+                "text": "What can I help you with?"
+              },
+              {
+                "text": "What is your question?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@options:yes",
+      "dialog_node": "node_8_1603985237563",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Object",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An object is an instance of a class. It has its own state, behavior, and identity."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Another Explanation?",
+            "options": [
+              {
+                "label": "Explain Further",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              },
+              {
+                "label": "I don't need a further explanation",
+                "value": {
+                  "input": {
+                    "text": "No Explanation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1603982164627",
+      "conditions": "@terms:object",
+      "dialog_node": "node_8_1604511766126",
+      "previous_sibling": "node_10_1604511872811"
+    },
+    {
+      "type": "standard",
+      "title": "default access specifier",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Private access specifier is used in a class definition."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(default access specifier)",
+      "dialog_node": "node_8_1604546904243",
+      "previous_sibling": "node_4_1604546876608"
+    },
+    {
+      "type": "standard",
+      "title": "An Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java comments: https://www.w3schools.com/java/java_comments.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1604570537902",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_8_1605457617492",
+      "previous_sibling": "node_7_1605457604260"
+    },
+    {
+      "type": "folder",
+      "title": "definition terms",
+      "conditions": "#definition_based",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1603982164627",
+      "previous_sibling": "node_6_1604567334896"
+    },
+    {
+      "type": "standard",
+      "title": "Another Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Object is an instance of a class. An object in OOPS is nothing but a self-contained component which consists of methods and properties to make a particular type of data useful. For example color name, table, bag, barking. When you send a message to an object, you are asking the object to invoke or execute one of its methods as defined in the class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a link to an example! https://www.geeksforgeeks.org/classes-objects-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1604511766126",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_9_1604511766128"
+    },
+    {
+      "type": "standard",
+      "title": "finalize",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604545804666",
+      "conditions": "@howtouse:(finalize method)",
+      "dialog_node": "node_9_1604546758599"
+    },
+    {
+      "type": "standard",
+      "title": "An Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "int x = 10;\nint y = 15;\nif (x > y) {\n  System.out.println( x + \" is greater than \" + y);\n} else {\n  System.out.println(x + \" is less than \" + y);\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604570635931",
+      "conditions": "@options:Example",
+      "dialog_node": "node_9_1605457886656"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ask Away!"
+              },
+              {
+                "text": "What Object-Oriented question do you have?"
+              },
+              {
+                "text": "What question do you have about Object-Oriented programming?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "OOP-Main",
+  "language": "en",
+  "description": ""
+}
