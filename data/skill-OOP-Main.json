@@ -397,6 +397,9 @@
           "text": "error message cannot find symbol"
         },
         {
+          "text": "FileNotFoundException error"
+        },
+        {
           "text": "i am getting the error cannot find symbol"
         },
         {
@@ -467,6 +470,210 @@
         }
       ],
       "description": "attempting to solve common java error messages associated with object oriented programming"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
     },
     {
       "intent": "how_to_use",
@@ -1398,7 +1605,8 @@
     "api_version": {
       "major_version": "v2",
       "minor_version": "2018-11-08"
-    }
+    },
+    "from-sample": true
   },
   "webhooks": [
     {
@@ -1439,6 +1647,28 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -1655,6 +1885,33 @@
     },
     {
       "type": "standard",
+      "title": "General Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!"
+              },
+              {
+                "text": "Good day to you!"
+              },
+              {
+                "text": "Hello there."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1605756874109",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
       "title": "Another Explanation",
       "output": {
         "generic": [
@@ -1860,11 +2117,6 @@
         ]
       },
       "parent": "node_10_1604567367002",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_10_1604567367002"
-      },
       "conditions": "@options:Example",
       "dialog_node": "node_1_1604950808843"
     },
@@ -1931,6 +2183,66 @@
       "conditions": "@errors:NullPointerException",
       "dialog_node": "node_1_1605723605466",
       "previous_sibling": "node_5_1605723303800"
+    },
+    {
+      "type": "standard",
+      "title": "Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Overloading:\nint myMethod(int x)\nfloat myMethod(float x)\ndouble myMethod(double x, double y)\n\nCredit:https://www.w3schools.com/java/java_methods_overloading.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1603651099110",
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1605726153578"
+    },
+    {
+      "type": "standard",
+      "title": "Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "// Base Class \nclass Parent { \n    void show() \n    { \n        System.out.println(\"Parent's show()\"); \n    } \n} \n  \n// Inherited class \nclass Child extends Parent { \n    // This method overrides show() of Parent \n    @Override\n    void show() \n    { \n        System.out.println(\"Child's show()\"); \n    } \n} \n\nCredit: https://www.geeksforgeeks.org/overriding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603651230266",
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1605726170634"
+    },
+    {
+      "type": "standard",
+      "title": "Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Early Binding:\npublic class NewClass { \n    public static class superclass { \n        static void print() \n        { \n            System.out.println(\"print in superclass.\"); \n        } \n    } \n    public static class subclass extends superclass { \n        static void print() \n        { \n            System.out.println(\"print in subclass.\"); \n        } \n    } \n  \n    public static void main(String[] args) \n    { \n        superclass A = new superclass(); \n        superclass B = new subclass(); \n        A.print(); \n        B.print(); \n    } \n} \n\nCredit: https://www.geeksforgeeks.org/difference-between-early-and-late-binding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1603651260241",
+      "conditions": "@options:Example",
+      "dialog_node": "node_1_1605726182656"
     },
     {
       "type": "standard",
@@ -2292,6 +2604,28 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -2313,6 +2647,28 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -2867,6 +3223,20 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -3017,6 +3387,27 @@
       "conditions": "@options:Explanation",
       "dialog_node": "node_3_1605457150152",
       "previous_sibling": "node_2_1604951963711"
+    },
+    {
+      "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information: https://www.geeksforgeeks.org/difference-between-early-and-late-binding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1603651260241",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_3_1605726187576",
+      "previous_sibling": "node_1_1605726182656"
     },
     {
       "type": "standard",
@@ -3420,7 +3811,7 @@
           }
         ]
       },
-      "conditions": "@options:no",
+      "conditions": "@options:no || #General_Ending",
       "dialog_node": "node_4_1603985073678",
       "previous_sibling": "node_8_1603985237563"
     },
@@ -3609,6 +4000,26 @@
       "conditions": "@",
       "dialog_node": "node_4_1605722492381",
       "previous_sibling": "node_52_1604539165255"
+    },
+    {
+      "type": "standard",
+      "title": "Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "public class MyClass {\n  int x = 5;\n\n  public static void main(String[] args) {\n    MyClass myObj = new MyClass();\n    System.out.println(myObj.x);\n  }\n}\n\nCredit: https://www.w3schools.com/java/java_classes.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1603651210325",
+      "conditions": "@options:Example",
+      "dialog_node": "node_4_1605724903955"
     },
     {
       "type": "standard",
@@ -3970,6 +4381,28 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -4129,6 +4562,47 @@
       "conditions": "@errors:OutOfMemoryError",
       "dialog_node": "node_5_1605723303800",
       "previous_sibling": "node_7_1605723049201"
+    },
+    {
+      "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java overloading and overriding: https://www.w3schools.com/java/java_methods_overloading.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1603651099110",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_5_1605726155341",
+      "previous_sibling": "node_1_1605726153578"
+    },
+    {
+      "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information: https://www.geeksforgeeks.org/difference-between-class-and-structure-in-c-sharp/#:~:text=Basically%2C%20a%20class%20combines%20the,actions)%20into%20a%20single%20unit.&text=A%20structure%20is%20a%20collection,bunch%20of%20different%20data%20types."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1603651278728",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_5_1605726208141"
     },
     {
       "type": "standard",
@@ -4295,7 +4769,7 @@
     {
       "type": "folder",
       "title": "how to use",
-      "conditions": "@howtouse:(finalize method)",
+      "conditions": "@howtouse",
       "digress_in": "does_not_return",
       "dialog_node": "node_6_1604545804666",
       "previous_sibling": "node_7_1604534642639"
@@ -4420,6 +4894,27 @@
       "conditions": "@options:Explanation",
       "dialog_node": "node_6_1605457462945",
       "previous_sibling": "node_5_1605457460354"
+    },
+    {
+      "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information: https://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1603651296660",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_6_1605726219761",
+      "previous_sibling": "node_9_1605726214928"
     },
     {
       "type": "standard",
@@ -4586,6 +5081,27 @@
     },
     {
       "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information on Java objects and classes: https://www.w3schools.com/java/java_classes.asp"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1603651210325",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_7_1605725532113",
+      "previous_sibling": "node_4_1605724903955"
+    },
+    {
+      "type": "standard",
       "title": "Overloading and Overriding",
       "output": {
         "generic": [
@@ -4597,6 +5113,28 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like an example or another explanation?",
+            "options": [
+              {
+                "label": "Example",
+                "value": {
+                  "input": {
+                    "text": "Example"
+                  }
+                }
+              },
+              {
+                "label": "Explanation",
+                "value": {
+                  "input": {
+                    "text": "Explanation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
@@ -4649,7 +5187,7 @@
       },
       "conditions": "@options:yes",
       "dialog_node": "node_8_1603985237563",
-      "previous_sibling": "Welcome"
+      "previous_sibling": "node_10_1605756874109"
     },
     {
       "type": "standard",
@@ -4813,6 +5351,47 @@
       "parent": "node_6_1604570635931",
       "conditions": "@options:Example",
       "dialog_node": "node_9_1605457886656"
+    },
+    {
+      "type": "standard",
+      "title": "Explanation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out this link for additional information: https://www.geeksforgeeks.org/overriding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1603651230266",
+      "conditions": "@options:Explanation",
+      "dialog_node": "node_9_1605726175816",
+      "previous_sibling": "node_1_1605726170634"
+    },
+    {
+      "type": "standard",
+      "title": "Example",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "public class NewClass { \n    public static class superclass { \n        static void print() \n        { \n            System.out.println(\"print in superclass.\"); \n        } \n    } \n    public static class subclass extends superclass { \n        static void print() \n        { \n            System.out.println(\"print in subclass.\"); \n        } \n    } \n  \n    public static void main(String[] args) \n    { \n\n        superclass A = new superclass(); \n        superclass B = new subclass(); \n        A.print(); \n        B.print(); \n    } \n}\n \nCredit: https://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1603651296660",
+      "conditions": "@options:Example",
+      "dialog_node": "node_9_1605726214928"
     },
     {
       "type": "standard",
