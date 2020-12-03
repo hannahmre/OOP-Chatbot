@@ -20,7 +20,7 @@ Please try out our [Live Demo](http://student.uncw.edu/hcm8434/chatbot.html)
 
 
 ## Installation
-##### Importing the dialog skill
+#### Importing the dialog skill
 To edit the chatbot functionality you need to import the dialog skill into your IBM Watson Assistant service. 
 
 <ins>For a new Watson Assistant service</ins>: launch your Watson Assistant tool, click on skills, click on add dialog skill, click on import skill, and then select the skill-OOP-Main.json file in the data folder.
@@ -29,7 +29,7 @@ To edit the chatbot functionality you need to import the dialog skill into your 
 
 For more information about importing and exporting dialog skills you can visit this [link].
 
-##### Embedding your chatbot
+#### Embedding your chatbot
 After editing the chatbot you will need to embed your chatbot into the webpage following [these instructions]. 
 
 Specifically, you will need to replace integrationID, region, and serviceInstanceID on lines 124-126 of chatbot.html with the information from your IBM Watson Assistant service.
