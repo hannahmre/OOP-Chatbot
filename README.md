@@ -1,7 +1,7 @@
 # Object-Oriented Programming Chatbot
 We have created a chatbot using IBM Watson Assistant that can interpret and answer object-oriented programming questions. 
 
-Users can ask questions regarding the concepts that make up object-oriented programming and the chatbot will return a well-explained answer. The chatbot has the ability to define the basic concepts of object-oriented programming as well as give examples using Java.
+Users can ask questions regarding the concepts that make up object-oriented programming and the chatbot will return a well explained answer. The chatbot has the ability to define the basic concepts of object-oriented programming as well as give examples using Java.
 
 ![chatbot](imgs/chatbot.png)
 
@@ -28,6 +28,7 @@ To edit the chatbot functionality you need to import the dialog skill into your 
 
 For more information about importing and exporting dialog skills you can visit this [link].
 
+After editing the chatbot you will need to embed your chatbot into the webpage following [these instructions]. Specifically, you will need to replace integrationID, region, and serviceInstanceID on lines 124-126 of chatbot.html with the information from your IBM Watson Assistant service.
 
 
 
@@ -60,3 +61,4 @@ William Purdy
    [particles.js]: <https://github.com/VincentGarreau/particles.js/>
    
    [link]: <https://cloud.ibm.com/docs/assistant?topic=assistant-backup>
+   [these instructions]: <https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-web-chat>
