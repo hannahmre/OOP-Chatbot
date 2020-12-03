@@ -1,7 +1,7 @@
 # Object-Oriented Programming Chatbot
 We have created a chatbot using IBM Watson Assistant that can interpret and answer object-oriented programming questions. 
 
-Users can ask questions regarding the concepts that make up object-oriented programming and the chatbot will return a well explained answer. The chatbot has the ability to define the basic concepts of object-oriented programming as well as give examples using Java.
+Users can ask questions regarding the concepts that make up object-oriented programming and the chatbot will return a well-explained answer. The chatbot has the ability to define the basic concepts of object-oriented programming as well as give examples using Java.
 
 ![chatbot](imgs/chatbot.png)
 
