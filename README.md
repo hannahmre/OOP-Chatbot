@@ -22,9 +22,9 @@ Please try out our [Live Demo](http://student.uncw.edu/hcm8434/chatbot.html)
 ## Installation
 To edit the chatbot functionality you need to import the dialog skill into your IBM Watson Assistant service. 
 
-For a new Watson Assistant service: launch your Watson Assistant tool, click on skills, click on add dialog skill, click on import skill, and then select the skill-OOP-Main.json file in the data folder.
+<ins>For a new Watson Assistant service</ins>: launch your Watson Assistant tool, click on skills, click on add dialog skill, click on import skill, and then select the skill-OOP-Main.json file in the data folder.
 
-For a Watson Assistant service with existing dialog skill: launch your Waton Assistant tool, click on skills, open dialog skill options, click on swap skill, click on import skill, and then select the skill-OOP-Main.json file in the data folder.
+<ins>For a Watson Assistant service with existing dialog skill</ins>: launch your Waton Assistant tool, click on skills, open dialog skill options, click on swap skill, click on import skill, and then select the skill-OOP-Main.json file in the data folder.
 
 For more information about importing and exporting dialog skills you can visit this [link].
 
@@ -54,16 +54,9 @@ William Purdy
 
 
 
-## License
-MIT
-
-
-
-
-
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [IBM Watson Assistnt]: <https://www.ibm.com/cloud/watson-assistant>
+   [IBM Watson Assistant]: <https://www.ibm.com/cloud/watson-assistant>
    [particles.js]: <https://github.com/VincentGarreau/particles.js/>
    
    [link]: <https://cloud.ibm.com/docs/assistant?topic=assistant-backup>
